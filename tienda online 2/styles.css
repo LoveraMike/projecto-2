@@ -199,11 +199,24 @@ body {
     background-color: rgba(255, 166, 0, 0.883);
 }
 
-/*#feature .fe-box h6:nth-child(2) {}
+#feature .fe-box:nth-child(2) h6 {
+    background-color: rgb(47, 133, 133);
+}
 
-#feature.fe-box h6:nth-child(3) {}
+#feature .fe-box:nth-child(3) h6 {
+    background-color: rgb(28, 156, 109);
+}
 
-#feature.fe-box h6:nth-child(4) {}
+#feature .fe-box:nth-child(4) h6 {
+    background-color: rgb(158, 46, 46);
+}
 
-#feature.fe-box h6:nth-child(5) {}
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #a4b659;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #6ebb2f;
+}
+
 
