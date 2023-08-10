@@ -291,3 +291,7 @@ body {
     bottom: 20px;
     right: 10px; 
 }
+ 
+#product1 h2 {
+    filter: drop-shadow(5px 3px 1px  rgb(238, 187, 84));
+}
