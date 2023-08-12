@@ -343,3 +343,140 @@ body {
     background-color: #ff5e00;
     color: #ffffff;
 }
+
+#news {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #1b1816;
+}
+
+#news h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    filter: drop-shadow(5px 3px 1px  rgb(113, 87, 31));
+}
+
+#news p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#news p span {
+    color: rgb(255, 128, 0);
+    filter: drop-shadow(5px 3px 1px  rgb(72, 62, 40));
+}
+
+#news .form {
+    display: flex;
+    width: 40%;
+}
+
+#news input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#news button {
+    color: white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+footer .col .logofooter{
+    margin-bottom: 30px;
+    position: relative;
+    width: 17%;
+    filter: drop-shadow(5px 4px 3px  rgb(54, 53, 53));
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #1a1a1a;
+    margin: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #fcb750;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+footer .follow i:hover{
+    filter: drop-shadow(-3px 4px 3px  rgba(54, 53, 53, 0.462));
+}
+
+footer a:hover {
+    color: #ff5e00;
+}
+
+footer .copyright {
+    width: 100%;
+    align-items: center;
+}
+
+/* media queries*/
+
+@media (max-width: 820px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 300px;
+        background-color: #ff8800;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+}
+
+
