@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carnicería</title>
+    <title>Supermarket</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./icons/favicon.ico">
     <script src="https://kit.fontawesome.com/4459210b9d.js" crossorigin="anonymous"></script>
@@ -45,83 +45,50 @@
         
     </section>
 
-    <section id="page-header">
-        <h2>Carnicería</h2>
-        <p>Los mejores cortes al mejor precio!</p>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-img">
+            <img src="img/muslopa.jpeg" width="100%" id="main-img" alt="">
+            <div class="small-img-g">
+                <div class="small-img-col">
+                    <img src="img/muslopa.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/muslopav2.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/muslopav3.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/muslopav4.jpeg" class="small-img" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-det">
+            <h6>Carnicería</h6>
+            <h4>Muslo parrillero K.cero.</h4>
+            <h2>10.000Gs.</h2>
+            <select>
+                <option>Peso</option>
+                <option>¼ Kg</option>
+                <option>½ Kg</option>
+                <option>¾ Kg</option>
+                <option>1 Kg</option>
+                <option>2 Kg</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Agregar al carrito</button>
+            <h4>Detalles del producto</h4>
+            <span>Presentamos nuestros suculentos filetes de muslo de pollo parrillero: una delicia sabrosa que aporta comodidad y sabor a su mesa. Procedentes de cortes de pollo de primera calidad, estos filetes de muslo se asan a la perfección n y ofrecen un delicioso equilibrio de ternura y carbón ahumado. Con cada bocado, experimente el sabor rico y jugoso que entusiasma a quien lo pruebe.</span>
+        </div>
     </section>
 
-
     <section id="product1" class="section-p1">
+        <h2>Productos Destacados</h2>
+        <p>No te pierdas estas ofertas</p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html';">
-                <img src="./img/costilla.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Costilla Premium tipo exportación.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>28.500Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
 
-            <div class="pro" onclick="window.location.href='puchero.html';">
-                <img src="./img/puchero.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Puchero Vacuno.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>11.000Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro" onclick="window.location.href='vacio.html';">
-                <img src="./img/vacio.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Vacío Novillito.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>33.500Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro" onclick="window.location.href='muslopa.html';">
-                <img src="./img/muslopa.jpeg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Muslo parrillero K-cero.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>10.000Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/polar.png" alt="1">
                 <div class="des">
                     <span>Bodega</span>
@@ -138,7 +105,7 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/muslo.jpg" alt="1">
                 <div class="des">
                     <span>Carnicería</span>
@@ -155,7 +122,7 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/ochsi.png" alt="1">
                 <div class="des">
                     <span>Carnicería</span>
@@ -172,7 +139,7 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/brahma.jpg" alt="1">
                 <div class="des">
                     <span>Bodega</span>
@@ -190,12 +157,6 @@
             </div>
         </div>
 
-    </section>
-
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fa-solid fa-right-long"></i></a>
     </section>
 
     <section id="news" class="section-p1 section-m1">
@@ -248,7 +209,24 @@
             <p>© 2023, Supermarket Copetrol Caapucú. Todos los derechos reservados.</p>
         </div>
     </footer>
-    
+
+    <script>
+        var MainImg = document.getElementById("main-img");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="index.js"></script>
 </body>
