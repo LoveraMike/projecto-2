@@ -17,7 +17,18 @@
             <ul id="navbar">
 
                 <li><a href="index.html">Inicio</a></li>
-                <li><a class="active" href="shop.html">Tienda</a></li>
+                <li class="dropdown active">
+                    <a href="#">Tienda</a>
+                    <div class="dropdown-content">
+                        <a href="shop.html">Carniceria</a>
+                        <a href="#">Basar</a>
+                        <a href="#">Panaderia</a>
+                        <a href="#">Bodega</a>
+                        <a href="#">Farmacia</a>
+                        <a href="#">Golocinas</a>
+                        <a href="#">Ferreteria</a>
+                    </div>
+                </li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">Info</a></li>
                 <li><a href="contact.html">Contacto</a></li>
@@ -59,7 +70,7 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='puchero.html';">
                 <img src="./img/puchero.jpg" alt="1">
                 <div class="des">
                     <span>Carnicería</span>
