@@ -578,6 +578,15 @@ footer .copyright {
     #news .form {
         width: 70%;
     }
+    @media (max-width: 768px) {
+        .dropdown:hover .dropdown-content {
+            display: none;
+        }
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+    }
 }
 
 @media (max-width: 477px) {
@@ -632,6 +641,15 @@ footer .copyright {
 
     footer .copyright {
         text-align: start;
+    }
+    @media (max-width: 768px) {
+        .dropdown:hover .dropdown-content {
+            display: none;
+        }
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
     }
 
     /*Single product*/

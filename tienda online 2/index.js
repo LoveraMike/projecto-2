@@ -15,3 +15,12 @@ if (close) {
 }
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const dropdownToggle = document.querySelector('.dropdown > a');
+    const dropdownContent = document.querySelector('.dropdown-content');
+    
+    dropdownToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        dropdownContent.classList.toggle('active');
+    });
+});
