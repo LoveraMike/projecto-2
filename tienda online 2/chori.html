@@ -11,13 +11,13 @@
 <body>
     
     <section id="header">
-        <a href="#"><img src="./icons/sml.png" class='logo' alt="logo"></a>
+        <a href="#"><img src="./icons/sml.png" class='logo' alt="logo" onclick="window.location.href='index.html';"></a>
 
         <div>
             <ul id="navbar">
 
-                <li><a class="active" href="index.html">Inicio</a></li>
-                <li class="dropdown">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown active">
                     <a href="#">Tienda</a>
                     <div class="dropdown-content">
                         <a href="shop.html">Carniceria</a>
@@ -45,120 +45,50 @@
         
     </section>
 
-    <section id="hero">
-        <h4>Tu supermercado de confianza</h4>
-        <h2>Para ahorrar tu tiempo</h2>
-        <h1>Ahora tenemos nuestra web</h1>
-        <p>Para que pidas desde la comodidad de tu casa</p>
-        <button>Comprar</button>
-    </section>
-
-    <section id="feature" class="section-p1">
-        <div class="fe-box">
-            <img src="./icons/productos.png" alt="delivery">
-            <h6>Todo para la canasta familiar</h6>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-img">
+            <img src="img/chori.jpg" width="100%" id="main-img" alt="">
+            <div class="small-img-g">
+                <div class="small-img-col">
+                    <img src="img/chori.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/choriv2.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/choriv3.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/choriv4.jpeg" class="small-img" width="100%" alt="">
+                </div>
+            </div>
         </div>
 
-        <div class="fe-box">
-            <img src="./icons/online.png" alt="delivery">
-            <h6>Pedí desde tu casa sin compromisos</h6>
+        <div class="single-pro-det">
+            <h6>Carnicería</h6>
+            <h4>Chorizo Parrillero Ochsi.</h4>
+            <h2>29.000Gs.</h2>
+            <select>
+                <option>Peso</option>
+                <option>¼ Kg</option>
+                <option>½ Kg</option>
+                <option>¾ Kg</option>
+                <option>1 Kg</option>
+                <option>2 Kg</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Agregar al carrito</button>
+            <h4>Detalles del producto</h4>
+            <span>Saboree el chisporroteo de la perfección con los chorizos Ochsi, una experiencia de sabor que transporta sus sentidos al corazón de un buen asado donde el chorizo no puede faltar. Elaboradas con cuidado, nuestras salchichas cuando se asan capturan la esencia ahumada magistralmente y hace que la cocina al aire libre sea tan irresistible. Cada bocado revela una sinfonía de sabores que redefinen tu noción de chorizos parrilleros.</span>
         </div>
-
-        <div class="fe-box">
-            <img src="./icons/efectivo.png" alt="delivery">
-            <h6>Pagas al recibir tu pedido</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="./icons/drugstore.png" alt="delivery">
-            <h6>Anexo Farmacia</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="./icons/drinks.png" alt="delivery">
-            <h6>Anexo bodega</h6>
-        </div>
-
-        <div class="fe-box">
-            <img src="./icons/delivery.png" alt="delivery">
-            <h6>Delivery totalmente gratis</h6>
-        </div>
-
     </section>
 
     <section id="product1" class="section-p1">
         <h2>Productos Destacados</h2>
         <p>No te pierdas estas ofertas</p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html';">
-                <img src="./img/costilla.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Costilla Premium tipo exportación.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>28.500Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
 
-            <div class="pro" onclick="window.location.href='puchero.html';">
-                <img src="./img/puchero.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Puchero Vacuno.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>11.000Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro" onclick="window.location.href='vacio.html';">
-                <img src="./img/vacio.jpg" alt="1">
-                <div class="des">
-                    <span>Carnicería</span>
-                    <h5>Vacío Novillito.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>33.500Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="./img/pan felipe.jpg" alt="1">
-                <div class="des">
-                    <span>Panadería</span>
-                    <h5>Pan Felipe.</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>6.000Gs.</h4>
-                </div>
-                <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
-            </div>
-
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/polar.png" alt="1">
                 <div class="des">
                     <span>Bodega</span>
@@ -175,9 +105,9 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro2" onclick="window.location.href='muslo.html';">
                 <img src="./img/muslo.jpg" alt="1">
-                <div class="des" onclick="window.location.href='muslo.html';">
+                <div class="des">
                     <span>Carnicería</span>
                     <h5>Muslo Vacuno.</h5>
                     <div class="star">
@@ -192,11 +122,11 @@
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro" onclick="window.location.href='chori.html';">
-                <img src="./img/ochsi.png" alt="1">
+            <div class="pro2">
+                <img src="./img/costilla.jpg" alt="1">
                 <div class="des">
                     <span>Carnicería</span>
-                    <h5>Chorizo Parrillero Ochsi.</h5>
+                    <h5>Costilla premium tipo exportación.</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -204,12 +134,12 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>29.000Gs.</h4>
+                    <h4>28.500Gs.</h4>
                 </div>
                 <a href="#" class="cart"><i class="fa-solid fa-cart-plus" style="color: #20ee84;"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro2">
                 <img src="./img/brahma.jpg" alt="1">
                 <div class="des">
                     <span>Bodega</span>
@@ -280,7 +210,23 @@
         </div>
     </footer>
 
-    
+    <script>
+        var MainImg = document.getElementById("main-img");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="index.js"></script>
 </body>
