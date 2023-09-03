@@ -690,6 +690,12 @@ footer .copyright {
     font-weight: 600;
 }
 
+#pagination a.active {
+    background-color: #ff5e00; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
 /* single product page */
 
 #prodetails {
@@ -820,3 +826,5 @@ footer .copyright {
     bottom: 20px;
     right: 10px; 
 }
+
+
