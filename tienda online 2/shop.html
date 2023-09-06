@@ -32,7 +32,24 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">Info</a></li>
                 <li><a href="contact.html">Contacto</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+
+                <li id="lg-bag" class="dropdown">
+                    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                   
+                   <div class="dropdown-content canasta">
+                        <div id="root"></div>
+                        <div class="sidebar">
+                            <div class="headC"><p>Mi canasta</p></div>
+                            <div id="cartItem">Tu canasta está vacía</div>
+                            <div class="footC">
+                                <h3>Total</h3>
+                                <div id="totalC">Gs 0.00</div>
+                            </div>
+                        </div>
+                   </div>
+                   
+
+                </li>
                 <a href="cart.html" id="close"><i class="fa-regular fa-circle-xmark"></i></i></a>
                 
             </ul>
@@ -248,8 +265,7 @@
             <p>© 2023, Supermarket Copetrol Caapucú. Todos los derechos reservados.</p>
         </div>
     </footer>
-    
-
+    <script src="cart.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
